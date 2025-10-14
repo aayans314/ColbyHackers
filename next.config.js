@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    basePath: '/ColbyHackers',
+  assetPrefix: '/ColbyHackers',
   output: 'export',
   reactStrictMode: true,
 
