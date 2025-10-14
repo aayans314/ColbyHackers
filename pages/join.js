@@ -1,6 +1,12 @@
+import Head from 'next/head'
+
 export default function Join(){
   return (
     <section className="p-6 max-w-3xl mx-auto">
+      <Head>
+        <title>Join - Colby Hackers</title>
+        <meta name="description" content="Join the Colby Hackers community and get involved." />
+      </Head>
       <h1 className="text-3xl neon-text mb-4">Join Colby Hackers</h1>
       <p className="mb-4">Join our mailing list or hop on Discord to get updates about events and projects.</p>
       <div className="space-y-3">

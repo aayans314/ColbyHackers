@@ -1,8 +1,13 @@
+import Head from 'next/head'
 import events from '../data/events.json'
 
 export default function Events(){
   return (
     <section className="p-6 max-w-6xl mx-auto">
+      <Head>
+        <title>Events - Colby Hackers</title>
+        <meta name="description" content="Upcoming events and workshops from Colby Hackers." />
+      </Head>
       <h1 className="text-3xl neon-text mb-4">Events</h1>
       <div className="grid md:grid-cols-2 gap-4">
         {events.map(e => (

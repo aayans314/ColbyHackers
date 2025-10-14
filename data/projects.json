@@ -4,7 +4,7 @@
     "title": "RetroVault — Your All-in-One Financial Command Center",
     "summary": "Developed at BostonHacks 2025. A nostalgic Windows 98-style personal finance interface with AI insights, simulations, and story mode.",
     "tech": ["React (Vite)", "TailwindCSS", "98.css", "Zustand", "Firebase", "Express", "Recharts"],
-    "team": ["Aayan Shah", "Muneeb Azfar Nafees", "Anthony Yeh"],
+    "team": ["Aayan Shah", "Muneeb Azfar Nafees", "Anthony Yeh", "Toshinori Underwood"],
     "links": {
       "devpost": "https://devpost.com/software/retro-vault",
       "demo": "https://www.retro-vault.us",
