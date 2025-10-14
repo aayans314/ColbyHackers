@@ -4,7 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
 
   // Ensures internal links and asset URLs work correctly on static hosts
-  assetPrefix: './',
+  assetPrefix: '',
 
   // Add trailing slash for GitHub Pages compatibility
   trailingSlash: true,
