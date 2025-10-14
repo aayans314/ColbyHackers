@@ -1,0 +1,23 @@
+[
+  {
+    "id": "e1",
+    "title": "3D Printing Party",
+    "date": "Oct 28, 2025",
+    "description": "Intro to 3D printing, slicer basics, and community builds.",
+    "tags": ["Workshop", "Social"]
+  },
+  {
+    "id": "e2",
+    "title": "Soldering Night",
+    "date": "Nov 6, 2025",
+    "description": "Bring a kit or build one provided by the club. Basic soldering tutorial included.",
+    "tags": ["Workshop"]
+  },
+  {
+    "id": "e3",
+    "title": "BostonHacks 2025",
+    "date": "Mar 2025",
+    "description": "Participation and projects showcase (RetroVault).",
+    "tags": ["Hackathon"]
+  }
+]
