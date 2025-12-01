@@ -2,48 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
+:root {
   --scanline-opacity: 0.04;
 }
 
-html,body,#__next{
-  height:100%;
+html,
+body,
+#__next {
+  height: 100%;
 }
 
-body{
+body {
   @apply bg-navy text-offwhite font-mono;
-  background-image: radial-gradient(ellipse at top left, rgba(0,183,255,0.04), transparent 20%), linear-gradient(180deg, rgba(0,255,163,0.02), transparent 30%);
+  background-image: radial-gradient(ellipse at top left, rgba(255, 255, 255, 0.03), transparent 20%), linear-gradient(180deg, rgba(255, 255, 255, 0.01), transparent 30%);
 }
 
-.scanlines::after{
-  content:'';
-  position:absolute;
-  inset:0;
-  background-image: linear-gradient(rgba(255,255,255,var(--scanline-opacity)) 1px, transparent 1px);
+.scanlines::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, var(--scanline-opacity)) 1px, transparent 1px);
   background-size: 100% 4px;
-  pointer-events:none;
+  pointer-events: none;
   mix-blend-mode: overlay;
 }
 
-.crt-glow{
-  box-shadow: 0 0 24px rgba(0,183,255,0.06), inset 0 0 40px rgba(0,183,255,0.02);
+.crt-glow {
+  box-shadow: 0 0 24px rgba(255, 255, 255, 0.05), inset 0 0 40px rgba(255, 255, 255, 0.02);
 }
 
-.matrix-bg{
+.matrix-bg {
   position: absolute;
   inset: 0;
   pointer-events: none;
   opacity: 0.08;
-  background-image: radial-gradient(transparent 20%, rgba(0,0,0,0.6));
+  background-image: radial-gradient(transparent 20%, rgba(0, 0, 0, 0.6));
 }
 
-.retro-card{
-  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-  border: 1px solid rgba(0,183,255,0.08);
+.retro-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+  border: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(4px);
 }
 
-.neon-text{
-  color: var(--tw-color-neonblue, #00b7ff);
-  text-shadow: 0 0 8px rgba(0,183,255,0.18);
+.neon-text {
+  color: var(--tw-color-offwhite, #ededed);
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
 }

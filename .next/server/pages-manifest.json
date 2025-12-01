@@ -1,1 +1,9 @@
-{"/_error":"pages/_error.js","/_app":"pages/_app.js","/about":"pages/about.html","/events":"pages/events.html","/":"pages/index.html","/join":"pages/join.html","/projects":"pages/projects.html","/_document":"pages/_document.js","/404":"pages/404.html"}
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.js",
+  "/": "pages/index.js",
+  "/join": "pages/join.js",
+  "/projects": "pages/projects.js"
+}

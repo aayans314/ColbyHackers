@@ -3,14 +3,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        navy: '#071127',
-        cybergreen: '#00ffa3',
-        neonblue: '#00b7ff',
-        offwhite: '#f6f7f9',
-        crt: '#0ff3c9'
+        navy: '#0a0a0a', // Very dark grey/black
+        cybergreen: '#ffffff', // White accent
+        neonblue: '#a3a3a3', // Light grey accent
+        offwhite: '#ededed', // Off-white text
+        crt: '#525252' // Dark grey accent
       },
       fontFamily: {
-        mono: ['JetBrains Mono', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'monospace']
+        mono: ['Share Tech Mono', 'JetBrains Mono', 'ui-monospace', 'monospace'],
+        orbitron: ['Orbitron', 'sans-serif'],
       }
     }
   },
