@@ -4,7 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
 
   // Ensures internal links and asset URLs work correctly on static hosts
-  assetPrefix: '',
+  // Custom domain (CNAME) is used, so we serve from root. No basePath/assetPrefix needed.
 
   // Add trailing slash for GitHub Pages compatibility
   trailingSlash: true,
