@@ -3,8 +3,11 @@ const nextConfig = {
   output: 'export',
   reactStrictMode: true,
 
-  // Ensures internal links and asset URLs work correctly on static hosts
-  // Custom domain (CNAME) is used, so we serve from root. No basePath/assetPrefix needed.
+  // GH Pages usually serves from a subdirectory (repo name), unless a custom domain is used.
+  // We use an environment variable to set this during build time if needed.
+  // If undefined, it falls back to empty string (root), which is correct for custom domains or localhost.
+  basePath: process.env.BASE_PATH || '',
+  assetPrefix: process.env.BASE_PATH || '',
 
   // Add trailing slash for GitHub Pages compatibility
   trailingSlash: true,
